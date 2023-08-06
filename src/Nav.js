@@ -1,10 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import logo from "./img/react-icon.png";
 
 const Nav = () => {
     return (
         <nav>
-            <div>Logo</div>
+            <div className="logo-wrap">
+                <img src={logo}></img>
+            </div>
             <ul>
                 <li><a>Home</a></li>
                 <li><a>About</a></li>
