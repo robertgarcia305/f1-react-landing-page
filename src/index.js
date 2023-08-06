@@ -15,6 +15,7 @@ import "./index.css";
 import logo from "./img/react-icon.png";
 import Header from "./Header";
 import Nav from "./Nav";
+import Cards from "./Cards";
 
 const Page = () => {
   return (
@@ -22,6 +23,7 @@ const Page = () => {
       <h3>this is the page wrap</h3>
       <p>this is a paragraph of the actual page wrap</p>
       <p><a href="#" className="button">Click here to explore</a></p>
+      <Cards />
     </div>
   );
 };
