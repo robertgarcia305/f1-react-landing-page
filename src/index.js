@@ -1,8 +1,3 @@
-// this were all the default when you create a react app
-// import React from 'react';
-// import ReactDOM from 'react-dom/client';
-// import './index.css';
-// import App from './App';
 // import reportWebVitals from './reportWebVitals';
 
 // // If you want to start measuring performance in your app, pass a function
@@ -13,10 +8,11 @@
 
 import React from "react";
 // this used to be react-dom/client when you take it out it works 
+// update now it works 
 import ReactDOM from "react-dom/client";
 import "./index.css";
 // apparently you have to import everything 
-import logo from "./img/john-wick.png";
+import logo from "./img/react-icon.png";
 import Header from "./Header";
 import Nav from "./Nav";
 
@@ -33,7 +29,12 @@ const Page = () => {
 const Footer = () => {
   return (
     <footer>
-      <ul><li>this is the footer menu</li></ul>
+      <div className="footer-left">
+
+      </div>
+      <ul className="footer-right">
+        <li><a href="#">Footer Item</a></li>
+      </ul>
     </footer>
   ); 
 };
@@ -54,4 +55,5 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <App />
 );
+
 
