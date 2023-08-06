@@ -5,6 +5,10 @@
 // // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 // reportWebVitals();
 
+// add all git modules to the .gitignore folder 
+// that is why it was breaking 
+// and when trying to push these modules, the branch gets ahead by 1 commit 
+
 
 import React from "react";
 // this used to be react-dom/client when you take it out it works 
