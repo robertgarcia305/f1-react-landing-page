@@ -13,7 +13,7 @@
 
 import React from "react";
 // this used to be react-dom/client when you take it out it works 
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom/client";
 import "./index.css";
 // apparently you have to import everything 
 import logo from "./img/john-wick.png";
