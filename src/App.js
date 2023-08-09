@@ -10,24 +10,14 @@ import Nav from "./Nav";
 import Cards from "./Cards";
 import Footer from "./Footer";
 import Subscribe from "./Subscribe";
-
-const Page = () => {
-  return (
-    <div className="page-wrap">
-      <h3>this is the page wrap</h3>
-      <p>this is a paragraph of the actual page wrap</p>
-      <p><a href="#" className="button">Click here to explore</a></p>
-    </div>
-  );
-};
-
+import MainPage from "./MainPage";
 
 const App = () => {
   return (
     <div className="body-wrap">
       <Header />
       <Nav />
-      <Page />
+      <MainPage />
       <Cards />
       <Subscribe />
       <Footer />

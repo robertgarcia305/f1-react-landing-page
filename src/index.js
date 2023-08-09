@@ -13,7 +13,6 @@
 
 import React from "react";
 // this used to be react-dom/client when you take it out it works 
-// update now it works 
 import ReactDOM from "react-dom/client";
 import "./index.css";
 // apparently you have to import everything 
@@ -24,7 +23,7 @@ import App from "./App";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
-  <App />
+    <App />
 );
 
 
