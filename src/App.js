@@ -8,6 +8,8 @@ import './App.css';
 import Header from "./Header";
 import Nav from "./Nav";
 import Cards from "./Cards";
+import Footer from "./Footer";
+import Subscribe from "./Subscribe";
 
 const Page = () => {
   return (
@@ -15,23 +17,10 @@ const Page = () => {
       <h3>this is the page wrap</h3>
       <p>this is a paragraph of the actual page wrap</p>
       <p><a href="#" className="button">Click here to explore</a></p>
-      <Cards />
     </div>
   );
 };
 
-const Footer = () => {
-  return (
-    <footer>
-      <div className="footer-left">
-
-      </div>
-      <ul className="footer-right">
-        <li><a href="#">Footer Item</a></li>
-      </ul>
-    </footer>
-  ); 
-};
 
 const App = () => {
   return (
@@ -39,6 +28,8 @@ const App = () => {
       <Header />
       <Nav />
       <Page />
+      <Cards />
+      <Subscribe />
       <Footer />
     </div>
   );

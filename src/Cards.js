@@ -3,9 +3,27 @@ import ReactDOM from "react-dom";
 
 const Cards = () => {
     return (
-        <div>
-            <p>hello there</p>
-            <a>this is some other anchor tag</a>
+        <div className="cards-wrap">
+            <div class="card-block">
+                <h3>Card Title</h3>
+                <p>this is some text about this card title in particular</p>
+                <div class="anchor-wrap"><a href="#">Click Here</a></div>
+            </div>
+            <div className="card-block">
+                <h3>Card Title</h3>
+                <p>this is some text about this card title in particular</p>
+                <div class="anchor-wrap"><a href="#">Click Here</a></div>
+            </div>
+            <div className="card-block">
+                <h3>Card Title</h3>
+                <p>this is some text about this card title in particular</p>
+                <div class="anchor-wrap"><a href="#">Click Here</a></div>
+            </div>
+            <div className="card-block">
+                <h3>Card Title</h3>
+                <p>this is some text about this card title in particular</p>
+                <div class="anchor-wrap"><a href="#">Click Here</a></div>
+            </div>
         </div>
     );
 }

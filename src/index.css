@@ -70,3 +70,126 @@ nav a:hover {
 footer {
   background-color: black;
 }
+
+.page-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page-wrap p {
+  text-align: justify;
+  width: 350px;
+}
+
+.anchor-wrap {
+  background-color: #60d2f4;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.anchor-wrap a {
+  background-color: #60d2f4;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.anchor-wrap a {
+  background-color: #60d2f4;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.cards-wrap {
+  background-color: #ecfbff;
+  padding: 40px 0px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.card-block {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 10px;
+  width: 200px;
+  padding: 20px;
+  background-color: white;
+}
+
+/* subscribe */
+.subscribe-wrap {
+  padding: 40px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  display: flex;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #60d2f4;
+  border-radius: 10px;
+}
+button {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #60d2f4;
+  background-color: #afe9fa;
+  cursor: pointer;
+}
+
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px 0px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer ul {
+  display: flex;
+  list-style: none;
+  padding: 0px;
+  flex-wrap: wrap;
+}
+
+footer li {
+  margin: 0px 10px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+footer a:hover {
+  text-decoration: underline; 
+}
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-top div {
+  margin: 0px 10px;
+}
+
+.icon {
+  background-color: grey;
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+

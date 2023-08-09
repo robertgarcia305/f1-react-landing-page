@@ -22,6 +22,7 @@ import App from "./App";
 
 // a new way of rendering for react 18 is like this 
 const root = ReactDOM.createRoot(document.getElementById("root"));
+
 root.render(
   <App />
 );
