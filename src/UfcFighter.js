@@ -5,7 +5,7 @@ const UfcFighters = (props) => {
     return (
         <div className="fighter-container">
             <div className="img-wrap">
-                <img src={props.img}></img>
+                <img src={props.pic} alt="logo"></img>
             </div>
             <div className="ufc-details">
                 <h3>{props.fighterName}</h3>

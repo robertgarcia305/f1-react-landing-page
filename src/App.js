@@ -14,7 +14,7 @@ import Cards from "./Cards";
 import Footer from "./Footer";
 import Subscribe from "./Subscribe";
 import MainPage from "./MainPage";
-import UfcFighters from "./UfcFighters";
+import UfcFighters from "./UfcFighter";
 
 const App = () => {
   return (
@@ -25,7 +25,7 @@ const App = () => {
       <Cards />
       <Subscribe />
       <UfcFighters 
-        img="./img/leon.png"
+        pic="./img/logo.svg"
         fighterName="Alexander Volkanovski"
         country="Australia"
         rate="9.4"
