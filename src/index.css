@@ -194,7 +194,21 @@ footer a:hover {
 
 /* ufc fighters */
 
+.ufc-wrap {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #a0e0f3;
+}
+
 .fighter-container {
   background-color: #60d2f4;
   padding: 20px;
+}
+
+.img-wrap {
+  width: 250px;
+}
+
+.img-wrap img {
+  width: 100%;
 }

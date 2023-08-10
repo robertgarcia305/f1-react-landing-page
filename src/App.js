@@ -14,7 +14,12 @@ import Cards from "./Cards";
 import Footer from "./Footer";
 import Subscribe from "./Subscribe";
 import MainPage from "./MainPage";
-import UfcFighters from "./UfcFighter";
+import UfcFighter from "./UfcFighter";
+
+import jones from "./img/jones.png";
+import masvidal from "./img/masvidal.png";
+import leon from "./img/leon.png";
+import volkanovski from "./img/volkanovski.png";
 
 const App = () => {
   return (
@@ -24,12 +29,33 @@ const App = () => {
       <MainPage />
       <Cards />
       <Subscribe />
-      <UfcFighters 
-        pic="./img/logo.svg"
-        fighterName="Alexander Volkanovski"
-        country="Australia"
-        rate="9.4"
-      />
+      <div className="ufc-wrap">
+        <UfcFighter
+        // the pics are being passed as strings
+          pic={jones}
+          fighterName="Alexander Volkanovski"
+          country="Australia"
+          rate="9.4"
+        />
+        <UfcFighter
+          pic={masvidal}
+          fighterName="Jorge Masvidal"
+          country="Florida"
+          rate="9.0"
+        />
+        <UfcFighter
+          pic={leon}
+          fighterName="Leon Edwards"
+          country="UK"
+          rate="7.0"
+        />
+        <UfcFighter
+          pic={volkanovski}
+          fighterName="Alexander Volkanovski"
+          country="Florida"
+        />
+      </div>
+
       <Footer />
     </div>
   );
