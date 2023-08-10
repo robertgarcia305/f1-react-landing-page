@@ -3,6 +3,9 @@
 //   cd my-app
 //   npm start
 
+import React from "react";
+import ReactDOM from "react-dom";
+
 // here you are not importing the react and reactdom because you export the function
 import './App.css';
 import Header from "./Header";
@@ -11,6 +14,7 @@ import Cards from "./Cards";
 import Footer from "./Footer";
 import Subscribe from "./Subscribe";
 import MainPage from "./MainPage";
+import UfcFighters from "./UfcFighters";
 
 const App = () => {
   return (
@@ -20,6 +24,12 @@ const App = () => {
       <MainPage />
       <Cards />
       <Subscribe />
+      <UfcFighters 
+        img="./img/leon.png"
+        fighterName="Alexander Volkanovski"
+        country="Australia"
+        rate="9.4"
+      />
       <Footer />
     </div>
   );

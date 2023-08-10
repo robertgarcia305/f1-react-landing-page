@@ -5,10 +5,10 @@ const Footer = () => {
     return (
         <footer>
             <div className="footer-top">
-                <div class="icon">Instagram</div>
-                <div class="icon">X</div>
-                <div class="icon">Facebook</div>
-                <div class="icon">Pinterest</div>
+                <div className="icon">Instagram</div>
+                <div className="icon">X</div>
+                <div className="icon">Facebook</div>
+                <div className="icon">Pinterest</div>
             </div>
             <div className="footer-bottom">
                 <ul>
