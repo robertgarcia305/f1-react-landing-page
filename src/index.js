@@ -11,6 +11,11 @@
 // https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files?platform=mac
 // 
 
+// if npm start doesn't work do: 
+
+// npm install react-scripts
+// then react-scripts start
+
 import React from "react";
 // this used to be react-dom/client when you take it out it works 
 import ReactDOM from "react-dom/client";

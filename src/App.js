@@ -16,6 +16,7 @@ import Subscribe from "./Subscribe";
 import MainPage from "./MainPage";
 import UfcFighter from "./UfcFighter";
 
+// this is an static way of adding them
 import jones from "./img/jones.png";
 import masvidal from "./img/masvidal.png";
 import leon from "./img/leon.png";
