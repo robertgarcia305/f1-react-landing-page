@@ -8,14 +8,14 @@ const UfcFighter = (props) => {
         <div className="fighter-container">
             <div className="img-wrap">
                 <img src={props.pic}></img>
-                <img src={`./img/${props.img}`}></img>
+                {/* this this dinamivcally but is not working as of now */}
+                {/* <img src={`./img/${props.pic}`}></img> */}
             </div>
             <div className="ufc-details">
                 <h3>{props.fighterName}</h3>
                 <p>{props.country}</p>
                 {/* this checks for a condition and deletes it from the dom if there is nothings */}
                 <p>{props.rate && props.rate}</p>
-                <p><img src={props.newimg}></img></p>
             </div>
         </div>
     );

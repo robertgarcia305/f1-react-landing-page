@@ -33,13 +33,14 @@ const App = () => {
       <div className="ufc-wrap">
         <UfcFighter
         // the pics are being passed as strings
-          pic={jones}
+          pic="img/volkanovski.png"
           fighterName="Alexander Volkanovski"
           country="Australia"
           rate="9.4"
+          img="volkanovski.png"
         />
         <UfcFighter
-          pic={masvidal}
+          pic="img/volkanovski.png"
           fighterName="Jorge Masvidal"
           country="Florida"
           rate="9.0"
@@ -51,8 +52,8 @@ const App = () => {
           rate="7.0"
         />
         <UfcFighter
-          pic={volkanovski}
-          fighterName="Alexander Volkanovski"
+          pic={jones}
+          fighterName="Jon Jones"
           country="Florida"
         />
       </div>
