@@ -40,19 +40,19 @@ const App = () => {
           img="volkanovski.png"
         />
         <UfcFighter
-          pic="img/volkanovski.png"
+          pic="img/masvidal.png"
           fighterName="Jorge Masvidal"
           country="Florida"
           rate="9.0"
         />
         <UfcFighter
-          pic={leon}
+          pic="img/leon.png"
           fighterName="Leon Edwards"
           country="UK"
           rate="7.0"
         />
         <UfcFighter
-          pic={jones}
+          pic="img/jones.png"
           fighterName="Jon Jones"
           country="Florida"
         />

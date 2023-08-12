@@ -2,6 +2,7 @@ import React from "react";
 import ReactDom from "react-dom";
 
 const UfcFighter = (props) => {
+    // if you do this, the images will be passed as sctring on the module 
     console.log(props.pic);
     console.log(typeof(props.pic));
     return (
