@@ -4,7 +4,7 @@ import ReactDOM from "react-dom";
 const Header = () => {
     return (
         <div className="header">
-            <p>this is the header notify about something</p>
+            <p>This is the header notify about something</p>
         </div>
     );
 };

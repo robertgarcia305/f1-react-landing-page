@@ -12,11 +12,11 @@ const Footer = () => {
             </div>
             <div className="footer-bottom">
                 <ul>
-                <li><a href="#">home</a></li>
-                <li><a href="#">about</a></li>
-                <li><a href="#">pricing</a></li>
-                <li><a href="#">solutions</a></li>
-                <li><a href="#">contact</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Solutions</a></li>
+                <li><a href="#">Contact</a></li>
                 </ul>
             </div>
         </footer>
