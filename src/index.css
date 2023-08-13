@@ -220,10 +220,18 @@ footer a:hover {
 
 .mercedes {
   background-color: #75f1eb;
+  padding: 5px;
+  border-radius: 10px;
 }
 .ferrari {
   background-color: #d43636;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
 }
 .red-bull {
   background-color: #201daf;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
 }

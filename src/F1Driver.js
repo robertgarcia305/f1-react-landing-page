@@ -14,9 +14,9 @@ const F1Driver = (props) => {
             </div>
             <div className="f1-details">
                 <h3 className={props.team}>{props.driverName}</h3>
-                <p>{props.country}</p>
+                <p>Country: {props.country}</p>
                 {/* this checks for a condition and deletes it from the dom if there is nothings */}
-                <p>{props.rate && props.rate}</p>
+                <p>Rating: {props.rate && props.rate}</p>
             </div>
         </div>
     );
