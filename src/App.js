@@ -14,13 +14,7 @@ import Cards from "./Cards";
 import Footer from "./Footer";
 import Subscribe from "./Subscribe";
 import MainPage from "./MainPage";
-import UfcFighter from "./UfcFighter";
-
-// this is an static way of adding them
-import jones from "./img/jones.png";
-import masvidal from "./img/masvidal.png";
-import leon from "./img/leon.png";
-import volkanovski from "./img/volkanovski.png";
+import F1Driver from "./F1Driver";
 
 const App = () => {
   return (
@@ -30,31 +24,35 @@ const App = () => {
       <MainPage />
       <Cards />
       <Subscribe />
-      <div className="ufc-wrap">
-        <UfcFighter
+      <div className="f1-wrap">
+        <F1Driver
         // the pics are being passed as strings
-          pic="img/volkanovski.png"
-          fighterName="Alexander Volkanovski"
-          country="Australia"
+          pic="img/perez.png"
+          driverName="Checo Perez"
+          country="Mexico"
           rate="9.4"
-          img="volkanovski.png"
+          team="red-bull"
         />
-        <UfcFighter
-          pic="img/masvidal.png"
-          fighterName="Jorge Masvidal"
-          country="Florida"
+        <F1Driver
+          pic="img/hamilton.png"
+          driverName="Lewis Hamilton"
+          country="UK"
           rate="9.0"
+          team="mercedes"
         />
-        <UfcFighter
-          pic="img/leon.png"
-          fighterName="Leon Edwards"
+        <F1Driver
+          pic="img/russell.png"
+          driverName="George Russell"
           country="UK"
           rate="7.0"
+          team="mercedes"
         />
-        <UfcFighter
-          pic="img/jones.png"
-          fighterName="Jon Jones"
-          country="Florida"
+        <F1Driver
+          pic="img/sainz.png"
+          driverName="Carlos Sainz"
+          country="Spain"
+          rate="7.0"
+          team="ferrari"
         />
       </div>
 

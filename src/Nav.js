@@ -8,12 +8,15 @@ const Nav = () => {
             <div className="logo-wrap">
                 <img src={logo}></img>
             </div>
-            <ul>
-                <li><a>Home</a></li>
-                <li><a>About</a></li>
-                <li><a>Pricing</a></li>
-                <li><a>Solutions</a></li>
-                <li><a>Contact</a></li>
+            <ul className="center-nav">
+                <li><a>Drivers</a></li>
+                <li><a>Team</a></li>
+                <li><a>Schedule</a></li>
+                <li><a>Results</a></li>
+            </ul>
+            <ul className="right-nav">
+                <li><a>Subscribe</a></li>
+                <li><a>Sign In</a></li>
             </ul>
         </nav>
     )
