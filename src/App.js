@@ -21,7 +21,9 @@ import DriversData from "./DriversData";
 
 const App = () => {
   const drivers = DriversData.map((driver) => {
-    return <F1Driver 
+    return <F1Driver
+    // adding the key prop is good practice that way react know that each iteration is different  
+      key={item.id}
       pic={driver.pic}
       driverName={driver.name}
       country={driver.country}
