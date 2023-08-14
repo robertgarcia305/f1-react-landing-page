@@ -27,6 +27,7 @@ const App = () => {
       country={driver.country}
       rate={driver.rate}
       team={driver.team}
+      badge={driver.badge}
     />
   });
 
