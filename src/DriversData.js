@@ -1,5 +1,6 @@
 const DriversData = [
     {
+        "id": 1,
         "name": "Checo Perez",
         "pic": "img/perez.png", 
         "country": "Mexico", 
@@ -8,6 +9,7 @@ const DriversData = [
         "badge": false
     },
     {
+        "id": 2,
         "name": "Lewis Hamilton",
         "pic": "img/hamilton.png", 
         "country": "UK", 
@@ -16,6 +18,7 @@ const DriversData = [
         "badge": true
     },
     {
+        "id": 3,
         "name": "George Russell",
         "pic": "img/russell.png", 
         "country": "UK", 
@@ -24,6 +27,7 @@ const DriversData = [
         "badge": false
     },
     {
+        "id": 4,
         "name": "Carlos Sainz",
         "pic": "img/sainz.png", 
         "country": "Spain", 
