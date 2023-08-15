@@ -20,16 +20,18 @@ import F1Driver from "./F1Driver";
 import DriversData from "./DriversData";
 
 const App = () => {
-  const drivers = DriversData.map((driver) => {
+  const drivers = DriversData.map((item) => {
     return <F1Driver
     // adding the key prop is good practice that way react know that each iteration is different  
       key={item.id}
-      pic={driver.pic}
-      driverName={driver.name}
-      country={driver.country}
-      rate={driver.rate}
-      team={driver.team}
-      badge={driver.badge}
+      item={item}
+      
+      // pic={driver.pic}
+      // driverName={driver.name}
+      // country={driver.country}
+      // rate={driver.rate}
+      // team={driver.team}
+      // badge={driver.badge}
     />
   });
 
